@@ -16,6 +16,7 @@ library("Synth")
 library("modelsummary")
 library("gt")
 
+#Cleaning data
 
 post_data_early <- read_xlsx("GCSEDATA_2000to2015.xlsx", sheet = "2000_2005", col_names = FALSE)
 post_data_later <- read_xlsx("GCSEDATA_2000to2015.XLSX", sheet = "2006_2015", col_names = FALSE)
